@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
     public class C02_NavigateMethods {
         public static void main(String[] args) throws InterruptedException {
-            System.setProperty("webdriver.chrome.driver","src/resources/drivers/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver","src/main/resources/drivers/chromedriver.exe");
             WebDriver driver = new ChromeDriver();
 
             //Techproeducation sayfasına gidelim
