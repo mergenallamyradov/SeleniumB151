@@ -7,10 +7,10 @@ import java.time.Duration;
 
 public class C04_ManageMethods_ImplicitlyWait {
     public static void main(String[] args) {
-        System.setProperty("webdriver.crome.driver", "src/main/resources/drivers/chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+            System.setProperty("webdriver.crome.driver", "src/main/resources/drivers/chromedriver.exe");
+            WebDriver driver = new ChromeDriver();
+            driver.manage().window().maximize();
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         /*
            implicitlyWait(Duration.ofSeconds(20)) Sayfadaki webElementleri görünür olana kadar(sayfada oluşana kadar)
          maximum 20 saniye bekler. Eğer webelementler 2 saniyede oluşursa 2 saniye bekler ve alt satıra geçer. Fakat
