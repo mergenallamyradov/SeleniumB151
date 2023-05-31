@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a7c8d1-0a72-44ce-805d-db51ac493b4e" name="Changes" comment="29/05/2023">
+      <change afterPath="$PROJECT_DIR$/src/test/java/day04_Locators_Xpath_Css/C01_getTagName_getAttributeName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day02_DriverMethods/C04_ManageMethods_ImplicitlyWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_DriverMethods/C04_ManageMethods_ImplicitlyWait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practices/Day02_Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practices/Day02_Homework.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practices/Day02_Homework02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practices/Day02_Homework02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,20 @@
       <recent name="C:\Users\dell\Desktop\GitProjectsNT\SeleniumB151\src\main\resources\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day02_Homework02">
+  <component name="RunManager" selected="Application.C01_getTagName_getAttributeName">
+    <configuration name="C01_getTagName_getAttributeName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04_Locators_Xpath_Css.C01_getTagName_getAttributeName" />
+      <module name="SeleniumB151" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day04_Locators_Xpath_Css.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C03_ManageMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day02_DriverMethods.C03_ManageMethods" />
       <module name="SeleniumB151" />
@@ -105,26 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day02_NavigateMethods_Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practices.Day02_NavigateMethods_Practice" />
-      <module name="SeleniumB151" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C01_getTagName_getAttributeName" />
         <item itemvalue="Application.Day02_Homework02" />
         <item itemvalue="Application.Day02_Homework" />
         <item itemvalue="Application.C04_ManageMethods_ImplicitlyWait" />
         <item itemvalue="Application.C03_ManageMethods" />
-        <item itemvalue="Application.Day02_NavigateMethods_Practice" />
       </list>
     </recent_temporary>
   </component>
