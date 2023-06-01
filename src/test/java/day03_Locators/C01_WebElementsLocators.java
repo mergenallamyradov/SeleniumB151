@@ -22,6 +22,9 @@ public class C01_WebElementsLocators {
         aramaKutusu.sendKeys("iphone");
         Thread.sleep(3000);
         aramaKutusu.submit(); //Keys.ENTER
+        driver.navigate().back();
+        aramaKutusu.sendKeys("samsung");
+        aramaKutusu.submit();
 
         //Sayfayi kapatalim
         driver.close();
